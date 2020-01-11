@@ -1,0 +1,36 @@
+{
+  "name": "Pagination Shortcut",
+  "author": "Diego Pazos <mail@ukadev.com>",
+  "version": "0.1",
+  "description": "Create a shortcut for a standard website pagination.",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "icons": {
+    "16": "images/paginationShortcut16.png",
+    "32": "images/paginationShortcut32.png",
+    "48": "images/paginationShortcut48.png",
+    "128": "images/paginationShortcut128.png"
+  },
+  "commands": {
+    "nextPage": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Right"
+      },
+      "description": "Go to the next page number."
+    },
+    "previousPage": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Left"
+      },
+      "description": "Go to the previous page number."
+    }
+  },
+  "manifest_version": 2
+}
